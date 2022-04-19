@@ -18,8 +18,8 @@ public class PC {
         HardDisk = hardDisk;
     }
 
-    public void show(){                             //print speed of CPU and capacity of hard disk
-        System.out.println("The speed of the CPU is "+cpu.getSpeed());
-        System.out.println("The capacity of the hard dist is "+HardDisk.getAmount());
+    public void show() {                             //print speed of CPU and capacity of hard disk
+        System.out.println("The speed of the CPU is " + cpu.getSpeed());
+        System.out.println("The capacity of the hard dist is " + HardDisk.getAmount());
     }
 }
